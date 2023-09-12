@@ -1,2 +1,2 @@
 # javascript
-Atividade Desenvolvida no curso Senac
+Atividade de JavaScript Desenvolvida no curso Senac
