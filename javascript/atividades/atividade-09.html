@@ -12,12 +12,11 @@
         let autorizacao = prompt('Você tem a autorização dos pais? (sim ou não)');
 
 
-        if (idade >= 18 && autorizacao == sim) {
-
-            document.write('Idade: ','<b>', idade,'</b>');
-            document.write('<br><b><font color=blue> Pode Entrar.</b></font color>  ');
+        if (idade >= 18 && autorizacao === 'sim'){
+            document.write('Idade: ', '<b>', idade, '</b>');
+            document.write('<br><b><font color=blue> Pode Entrar.</b></font color> ');
         } else {
-            document.write('Idade: ','<b>', idade,'</b>');
+            document.write('Idade: ', '<b>', idade, '</b>');
             document.write('<br><b><font color=red> Não pode Entrar.</b></font color>  ');
 
         }
