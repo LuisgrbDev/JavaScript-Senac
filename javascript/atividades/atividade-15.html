@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+
+
+        let lado_1 = prompt('Digite o valor do primeiro lado do triângulo:', '');
+        let lado_2 = prompt('Digite o valor do segundo lado do triângulo:', '');
+        let lado_3 = prompt('Digite o valor do terceiro lado do triângulo:', '');
+
+        lado_1 = parseFloat(lado_1)
+        lado_2 = parseFloat(lado_2)
+        lado_3 = parseFloat(lado_3)
+
+
+        if (lado_1 == lado_2  && lado_2 == lado_3 && lado_1 == lado_3) {
+            document.write('Todos os lado são iguais esse triângulo é <font color=blue> Equilátero </font color>');
+
+            } else if (lado_1 == lado_2 || lado_2 == lado_3 || lado_1 ==lado_3) {
+
+                document.write('Todos os lado são iguais esse triângulo é <font color=blue> Isoceles </font color>');
+
+            } else {
+
+                document.write('Todos os lado são iguais esse triângulo é <font color=blue> Escaleno </font color>');
+
+            }
+       
+            
+
+
+        console.log('Lado 1: ', lado_1);
+        console.log('<br>Lado 2: ', lado_2)
+        console.log('<br>Lado 3: ', lado_3);
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

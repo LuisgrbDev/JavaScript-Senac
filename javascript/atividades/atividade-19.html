@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+
+        let perg_1 = parseInt(prompt('Qual a alternativa correta para borgonha em inglês? \n 1)chartreuse\n  2)burgundy \n 3)moss\n 4)mauve ', ''));
+        let perg_2 =parseInt(prompt('Qual a alternativa correta para 500.000 em inglês?\n 1)Five Thousand Hundred\n  2) Five Thousand\n 3)Five hundred\n 4)Five Hundred Thousand', ''));
+        let perg_3 = parseInt(prompt('Qual a alternativa correta para Prédio em inglês?\n 1)Building \n  2) Graveyard \n 3) Post Office \n 4) Store', ''));
+        let perg_4 = parseInt(prompt('Qual a alternativa correta para barata em inglês?\n 1) Cod \n 2) Cockroach \n 3) Echidna\n4) Barautah', ''));
+        let perg_5 = parseInt(prompt('Qual o Personagem mais famoso da Disney? \n 1) Pateta \n 2) Ursinho Pooh \n3) Minnie \n4) Mickey', ''))   ;
+        let res_1 = 0;
+        let res_2 = 0;
+        let res_3 = 0;
+        let res_4 = 0;
+        let res_5 = 0;
+
+
+        if (perg_1 === 2) {
+            res_1 = 1
+            
+        }
+        if (perg_2 === 4) {
+            res_2 = 1
+           
+        }
+        if (perg_3 === 1) {
+            res_3 = 1
+            
+        }
+        if (perg_4 === 2) {
+            res_4 = 1
+           
+        }
+        if (perg_5 === 4) {
+            res_5 = 1
+            
+        }
+
+
+        let pontos = res_1 + res_2 +res_3+res_4+res_5;
+        console.log(pontos)
+        document.write('<h1><font color = blue>RESULTADO</font></h1>');
+        document.write('Pergunta 1: <br> Qual a alternativa correta para borgonha em inglês? <br>', 'Alternativa correta: <font color = blue> 2 </font>  (Burgundy)', ' <br> Sua Resposta: ', perg_1,'<hr>');
+        document.write('<br> Pergunta 2: <br> Qual a alternativa correta para 500.000 em inglês? <br>', 'Alternativa correta: <font color = blue>4 </font>(Five Hundred Thousand)', ' <br> Sua Resposta:', perg_2,'<hr>');
+        document.write('<br> Pergunta 3: <br> Qual a alternativa correta para Prédio em inglês? <br>', 'Alternativa correta: <font color = blue>1</font> (Building)', ' <br> Sua Resposta:', perg_3,'<hr>');
+        document.write('<br> Pergunta 4: <br> Qual a alternativa correta para barata em inglês? <br>', 'Alternativa correta:<font color = blue> 2 </font>(Graveyard)', ' <br> Sua Resposta:', perg_4,'<hr>');
+        document.write('<br> Pergunta 5: <br> Qual o Personagem mais famoso da Disney? <br>', 'Alternativa correta:<font color = blue> 4</font> (Mickey)', ' <br> Sua Resposta:', perg_5,'<hr>');
+        document.write('<br> Pontos: <font color = green> ', pontos,'</font>');
+
+      
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+
+        let nome_aluno = prompt('Digite seu nome: ', '');
+        let nota_1 = parseFloat(prompt('Digite sua 1° Nota: ', ''));
+        let nota_2 = parseFloat(prompt('Digite sua 2° Nota: ', ''));
+        let nota_3 = parseFloat(prompt('Digite sua 3° Nota:  ', ''));
+        let nota_4 = parseFloat(prompt('Digite sua 4° Nota:  ', ''));
+        let soma = nota_1 + nota_2 + nota_3 + nota_4;
+        let media = parseInt(soma/4);
+
+
+        document.write('Aluno: ',nome_aluno,)
+        document.write('<br>1° nota: ',nota_1)
+        document.write('<br>2° nota: ',nota_2)
+        document.write('<br>3° nota: ',nota_3)
+        document.write('<br>4° nota: ',nota_4)
+        document.write('<br>Média: ',media)
+
+
+    if(media >= 7){
+        document.write('<br>Situação: <b>Aprovado<b>');
+    } else{
+        document.write ('<br>Situação: <b>Reprovado<b>');
+    }
+    
+
+        
+    
+
+        console.log(soma)
+        console.log(media)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
