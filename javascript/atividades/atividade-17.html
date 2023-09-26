@@ -6,9 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript</title>
     <script>
-
-        let valorcusto = parseInt(prompt('Digite o valor o produto: ', ''));
-        let porcentagem = parseInt(prompt('Digite o porcentual de venda: ', ''));
+        let custo = parseFloat(prompt('Digite o Preço de Custo do Produto:',''));
+        let perce = parseFloat(prompt('digite o percentual de venda: ',''));
+        let porcentagem = perce/100;
+        let valor_lucro = custo * porcentagem;
+        let valor_venda = custo + valor_lucro;
+         
+        document.write('Valor de Custo: R$',custo);
+        document.write ('<br> Percentual de venda: ', perce,"%");
+        console.log ( porcentagem);
+        document.write('<br>Valor de Venda: R$',valor_venda,',00');
+        
+        document.write('<br>Lucro: ','<font color= red> R$',valor_lucro,',00')
+       
+        
 
 
 
