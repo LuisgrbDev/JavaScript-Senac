@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+
+    <script>
+
+function areaterreno(largura,comprimento){
+ return largura * comprimento;
+
+};
+
+largura =  parseFloat(prompt('Digite o Valor da Largura do terreno: ',''));
+comprimento =  parseFloat(prompt('Digite o Valor da Comprimetnto do terreno: ',''));
+
+let resultado = areaterreno(largura,comprimento);
+
+document.write('Largura Terreno: ', largura, ' Metros');
+document.write('<br>Comprimento do terreno: ', comprimento,' Metros');
+document.write('<br>Área do terreno: ', resultado,' Metros quadrados');
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

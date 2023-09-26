@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    
+    <script>
+        // entre parenteses esta as variaveis
+        function media(no_1, no_2, no_3, no_4) {
+            return (no_1 + no_2 + no_3 + no_4) / 4;
+
+        };
+        // aqui as variaveis estão recebendo um valor
+        no_1 = parseInt(prompt('Digite Nota 1:', ''));
+        no_2 = parseInt(prompt('Digite Nota 2:', ''));
+        no_3 = parseInt(prompt('Digite Nota 3:', ''));
+        no_4 = parseInt(prompt('Digite Nota 4:', ''));
+
+        // nesse variavel esta trazendo o que foi pedido na function e as variaveis;
+        let resultado = media(no_1, no_2, no_3, no_4);
+        //  let resultado = media(10,5,9,7)
+        console.log(resultado)
+
+        document.write('Nota: ', no_1);
+        document.write('<br>Nota: ', no_2);
+        document.write('<br>Nota: ', no_3);
+        document.write('<br>Nota: ', no_4);
+        document.write('<br>Media: ', resultado);
+
+
+    </script>
+
+
+
+</head>
+<body>
+    
+</body>
+</html>
