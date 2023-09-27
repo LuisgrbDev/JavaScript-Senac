@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo callback</title>
+    <script>
+
+        function mostrarMensagem() {
+
+            alert('Que Aula show! \n Cristiano é demais');
+
+        }
+
+        function corFundo() {
+
+            document.bgColor = 'red'
+
+        }
+        function corFundo01() {
+
+            document.bgColor = 'white'
+
+        }
+
+        function pagina() {
+
+            document.write('<h1>AMO JAVASCRIPT</h1>')
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <h1>Funções de Callback em JavaScript</h1>
+    <button id="meuBotão" onclick="corFundo()"> Alterar cor de fundo para Vermelho </button>
+    <button id="meuBotão" onclick="corFundo01()"> Alterar cor de fundo para Branco </button>
+    <br>
+    <button id="meuBotão" onclick="mostrarMensagem()"> Mensagem no Alert </button>
+    <button id="meuBotão" onclick="pagina()"> Mensagem na pagina </button>
+</body>
+
+</html>
