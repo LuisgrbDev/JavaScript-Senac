@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples 02 </title>
+</head>
+
+<body>
+    <h2>Calculadora Simples 02</h2>
+    <!-- Campos de entrada para os numero  -->
+    <input type="text" id='numero1' placeholder="Número 1">
+    <input type="text" id='numero2' placeholder="Número 2">
+    <button onclick="calcularOperacoes()">Calcular</button>
+
+
+    <!-- Local onde o resultado será exibidio -->
+    <p>Resultado</p>
+    <div id='resultado'></div>
+
+    <script>
+
+        function calcularOperacoes(){
+
+            //obter os valores dos campos de texto e converter em números
+
+            let num1 = parseInt(document.getElementById('numero1').value);
+            let num2 = parseInt(document.getElementById('numero2').value);
+        }
+
+        if (parseFloat(num1) && parseFloat (num2)){
+
+
+            let soma = num1+ num2;
+            let Subtracao = num1-num2;
+            let multiplicacao = num1*num2;
+            let divisao = num1 / num2;
+        }
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>

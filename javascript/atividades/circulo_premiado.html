@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circulo Premiado</title>
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+    <script>
+
+        function errado1() {
+
+            document.getElementById('sorteioBolinhas1').innerHTML = 'X'
+
+        }
+        function errado2() {
+
+            document.getElementById('sorteioBolinhas2').innerHTML = 'X'
+
+        }
+        function premiado() {
+
+            document.getElementById('sorteioBolinhas3').innerHTML = 'PREMIADO'
+
+        }
+        function errado3() {
+
+            document.getElementById('sorteioBolinhas4').innerHTML = 'X'
+
+        }
+        function errado4() {
+
+            document.getElementById('sorteioBolinhas5').innerHTML = 'X'
+
+        }
+    </script>
+
+    <div style="display: flex; justify-content: center; margin-top: 250px;">
+
+       <div onclick="errado1()" style="background-color: pink; width: 350px; height: 350px; border-radius: 50%;">
+           <p id="sorteioBolinhas1" style="text-align: center; margin-top: 145px; font-size: 50px;"></p>
+       </div>
+
+       <div onclick="errado2()" style="background-color: rosybrown; width: 350px; height: 350px; border-radius: 50%;">
+
+            <p id="sorteioBolinhas2" style="text-align: center; margin-top: 145px; font-size: 50px;"></p>
+
+        </div>
+
+        <div onclick="premiado()" style="background-color: greenyellow; width: 350px; height: 350px; border-radius: 50%;">
+
+            <p id="sorteioBolinhas3" style="text-align: center; margin-top: 145px; font-size: 50px;"></p>
+
+        </div>
+
+        <div onclick="errado3()" style="background-color: rebeccapurple; width: 350px; height: 350px; border-radius: 50%;">
+
+            <p id="sorteioBolinhas4" style="text-align: center; margin-top: 145px; font-size: 50px;"></p>
+
+        </div>
+
+        <div onclick="errado4()" style="background-color: yellowgreen; width: 350px; height: 350px; border-radius: 50%;">
+
+            <p id="sorteioBolinhas5" style="text-align: center; margin-top: 145px; font-size: 50px;"></p>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- <h1>Circulo Premiado</h1>
+
+    <div onclick="clique00()"  id='clique' style="background-color: pink; border-radius:  50%; height: 50px; width: 50px; display: inline-block;"></div>
+    <div style="background-color: rosybrown; border-radius: 50%; height: 50px; width: 50px; display: inline-block;"></div>
+    <div style="background-color: greenyellow; border-radius: 50%; height: 50px; width: 50px; display: inline-block;"></div>
+    <div style="background-color: rebeccapurple; border-radius: 50%; height: 50px; width: 50px; display: inline-block;"></div>
+    <div style="background-color: yellowgreen; border-radius: 50%; height: 50px; width: 50px; display: inline-block;"></div> -->
+
+
+</body>
+
+</html>

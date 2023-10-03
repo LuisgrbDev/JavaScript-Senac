@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampada</title>
+</head>
+
+
+
+<body>
+    <script>
+
+        function ligada() {
+            document.getElementById("lampada").src = "imagens/ligada.png";
+
+        }
+
+        function desligada() {
+
+            document.getElementById("lampada").src   = "imagens/desligadaa.png";
+
+        }
+
+
+    </script>
+
+    <img src="imagens/desligadaa.png" alt="" id="lampada">
+
+    <br>
+    <input onclick="ligada()" type="radio" name="teste" > Ligada
+    <br>
+    <input onclick="desligada()" type="radio" name="teste"> Desligada
+
+
+</body>
+
+</html>
