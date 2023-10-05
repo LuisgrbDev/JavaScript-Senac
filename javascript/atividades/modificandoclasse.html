@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificando Class</title>
+</head>
+
+<body>
+    <style>
+        .estilo1 {
+            background-color: yellow;
+            color: black;
+            font-size: 20px;
+            padding-left: 5px;
+        }
+
+        .estilo2 {
+            width: 600px;
+            height: 300px;
+            background-color: #ff0000;
+            text-align: center;
+            font-size: 25px;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+<script>
+    function modificarClasse(){
+        document.getElementById('texto').className ='estilo2';
+    }
+
+    function voltarclasse(){
+        document.getElementById('texto').className ='estilo1';
+    }
+</script>
+    <div id="texto" class="estilo1">
+        <h2>Modificando Classe</h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam non aliquam perspiciatis excepturi, molestiae
+        deleniti doloribus eum aut recusandae, quisquam provident atque debitis aperiam numquam omnis sint. Tempora,
+        officia culpa.
+    </div>
+    <hr>
+    <button type="button" onclick="modificarClasse()">Modificar classe</button>
+    <button type="button" onclick="voltarclasse()">voltar</button>
+</body>
+
+</html>
