@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulação de DOM com JavaScript</title>
+
+    <style>
+        #container_00 {
+            border: solid 2px;
+            border-radius: 10px;
+            width: 50%;
+            height: 360px;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            margin: 0px;
+            margin-inline: 25%;
+
+        }
+
+        #container_01 {
+            display: inline-block;
+
+            width: 310px;
+
+            align-items: center;
+
+            justify-content: center;
+
+            margin-top: 20px;
+
+            text-align: center;
+        }
+
+        #container_00 h2 {
+            border: solid 2px;
+            width: 50%;
+            height: 60px;
+            font-size: 25px;
+            justify-content: center;
+            align-items: center;
+            padding: 2px;
+            display: flex;
+            background-color: black;
+            color: #fff;
+            border-radius: 20px;
+            margin-inline: 25%;
+
+        }
+
+        #container_00 p {
+            font-size: 25px;
+            color: black;
+            margin-inline: 25%;
+            font-weight: bold;
+        }
+
+        #caixa00 {
+            border: solid 2px;
+            border-radius: 20px;
+            width: 50%;
+            height: 60px;
+            background-color: bisque;
+            color: black;
+            margin-inline: 25%;
+            font-size: 25px;
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            font-weight: bold;
+
+        }
+
+        #container_01 button {
+            background-color: black;
+
+            color: white;
+
+            height: 30px;
+
+            width: 120px;
+
+            margin: 2px;
+
+            border-radius: 10px;
+
+
+        }
+
+        #container_01 button:hover {
+            background-color: #302f2f;
+        }
+    </style>
+    <script>
+
+
+        // Função para incrementar o contador
+
+        function incremento() {
+
+            // Obtém o valor atual da caixa de texto, converte para número e incrementa
+
+            let contadorInput = document.getElementById('caixa00');
+
+            let valorAtual = parseInt(contadorInput.value);
+
+            valorAtual++;
+
+            contadorInput.value = valorAtual;
+
+        }
+
+
+
+        // Função para decrementar o contador
+
+        function decrementar() {
+
+            // Obtém o valor atual da caixa de texto, converte para número e decrementa
+
+            let contadorInput = document.getElementById('caixa00');
+
+            let valorAtual = parseInt(contadorInput.value);
+
+            valorAtual--;
+
+            contadorInput.value = valorAtual;
+
+        }
+
+
+
+
+    </script>
+
+
+</head>
+
+<body>
+    <div id="container_00">
+        <h2>Manipulação de DOM com JavaScript</h2>
+
+        <p class="subtitulo"><b>Contador:</b> </p>
+
+        <input type="text" id="caixa00" disabled value="0">
+        <br><br>
+        <div id="container_01">
+            <button id="aumenta" onclick="incremento()">Incrementar</button>
+            <button id="diminui" onclick="decrementar()">Decrementar</button>
+            <br><br>
+        </div>
+        <p>Desenvolvedor: -------</p>
+
+
+    </div>
+</body>
+
+</html>
