@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <script>
+        let pri_valor = parseInt(prompt('Digite um numero: ', ''));
+        let seg_valor = parseInt(prompt('Digite mais um número:', ''));
+        // let opcao = parseInt(prompt('Escolha a Opção: \n 1) Soma \n 2) Subtração \n 3) Multiplicação \n 4) divisão'));
+        let opcao = prompt('Digite o simbolo da operação:', '');
+        let conta;
+        let resultado;
+        
+        switch (opcao) {
+
+            case '+':
+                opcao = 'Soma'
+                conta = pri_valor + seg_valor;
+                resultado = conta
+                break;
+
+            case '-':
+                opcao = 'Subtração'
+                conta = pri_valor - seg_valor;
+                resultado = conta
+                break;
+
+            case '*':
+                opcao = 'Multiplicação'
+                conta = pri_valor * seg_valor;
+                resultado = conta
+                break;
+
+            case '/':
+                opcao = 'Divisão'
+                conta = pri_valor / seg_valor;
+                resultado = conta
+                break;
+
+
+
+        }
+        document.write('Primeiro Valor: ', pri_valor);
+        document.write('<br>Segundo Valor: ', seg_valor)
+        document.write('<br>Operação escolhida: ', opcao);
+        document.write('<br>Resultado: ', resultado);
+
+
+
+        // switch (opcao) {
+        //     case 1:
+        //         document.write('Primeiro Valor: ', pri_valor);
+        //         document.write('<br>Segundo Valor: ', seg_valor)
+        //         document.write('<br>Operação escolhida: Soma ');
+        //         document.write('<br>Resultado: ', pri_valor + seg_valor);
+
+        //         break;
+        //     case 2:
+        //         document.write('Primeiro Valor: ', pri_valor);
+        //         document.write('<br>Segundo Valor: ', seg_valor)
+        //         document.write('<br>Operação escolhida: Subtração ');
+        //         document.write('<br>Resultado: ',pri_valor - seg_valor);
+        //         break;
+        //     case 3:
+        //         document.write('Primeiro Valor: ', pri_valor);
+        //         document.write('<br>Segundo Valor: ', seg_valor)
+        //         document.write('<br>Operação escolhida: Multiplicação ');
+        //         document.write('<br>Resultado: ',pri_valor * seg_valor);
+        //         break;
+        //     case 4:
+        //         document.write('Primeiro Valor: ', pri_valor);
+        //         document.write('<br>Segundo Valor: ', seg_valor)
+        //         document.write('<br>Operação escolhida: Divisão ');
+        //         document.write('<br>Resultado: ',pri_valor / seg_valor);
+        //         break;
+
+        // }
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
