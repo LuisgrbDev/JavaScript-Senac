@@ -1,34 +1,37 @@
 body {
     background-color: #ebe7e0;
-    font: 13pt Arial;
+    font: 23pt Arial;
+    font-family: 'VT323', monospace;
 }
 
 main {
-    background-color: white;
+    
+    background-color: #303032;
     width: 800px;
     padding: 20px;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.529);
+    box-shadow: 10px 10px 5px 5px #97ce4c;
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: 	#97ce4c;
 }
 
 .titulo-2{
-    color: rgb(255, 253, 248);
+    color:rgba(0, 0, 0, 0.529);
+    font-size: 25px;
 }
 
 h2 {
-    color: darkgoldenrod;
+    color: #f0e14a;
 }
 
 aside {
     display: block; 
     font-size: 10pt;
     text-align: justify;
-    background-color: #44749d;
+    background-color: #97ce4c;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -40,13 +43,16 @@ aside img {
     float: left;
     margin-right: 10px;
 }
+li{
 
+    color: aliceblue;
+}
 a, a:visited {
-    color: rgb(34, 34, 34);
+    color:#97ce4c;
     font-weight: bolder;
 }
 
 a:hover {
-    color: darkgoldenrod;
+    color:#f0e14a;
     text-decoration: none;
 }
