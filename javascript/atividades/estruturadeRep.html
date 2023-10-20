@@ -1,45 +1,32 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="pt-br">
+ 
 
 <head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Document</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
 </head>
 
-<body>
+ 
 
-    <h1>Estrutura de Reprodução</h1>
-    <div style="display: inline-block;">
-    <div style="border: solid  2px gray; background-color: gray; width: 196px; text-align: center; ">❤️ + x + ❤️ </div>
-    <img  src="imagens/professor.png" alt="">
-    <div style="border: solid 2px gray; background-color: gray; width: 196px; text-align: center; margin-bottom: 9px;">😀😀😀 </div>
-   
-    <div style="border: solid 2px gray; background-color: gray; width: 196px; text-align: center; ">❤️ + x + ❤️ </div>
-    <img src="imagens/professor.png" alt="">
-    <div style="border: solid 2px gray; background-color: gray; width: 196px; text-align: center; ">😀😀😀 </div>
-</div>
-   
-    <!-- <script>
-        let numero = parseInt(prompt('Digite um Numero:',''));
-        let x = 1;
+<body style="display: flex; flex-direction: row; flex-wrap: wrap;">
+<script>
+        let quantidade = parseInt(prompt('Digite quantas vezes deseja ser assustado:',''))
+        let x = 1
 
-        while( x <=numero){
-            document.write('<div style="background: gray; width: 196px; text-align: center;">❤️' + x + '❤️</div>','<br>');
-            document.write(x + '<img src="imagens/professor.png">');
-            document.write('<div style="background: gray; width: 196px; text-align: center;">😀😀😀</div> ');
-            
-            x ++;
+        while(x <= quantidade) { 
+            document.write('<table><tr><th style="background-color: gray;">❤️'+ x +'❤️</th></tr><tr><th><img src="img/prof.png" alt=""></th></tr><tr><th style="background-color: rgb(94, 94, 94);">&#x1F60D;&#x1F60D;&#x1F60D;</th></tr></table>')
+            x++;
         }
-    </script> -->
 
+</script>
 
+ 
 
 </body>
+
+ 
 
 </html>
